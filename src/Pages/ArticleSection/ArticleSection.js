@@ -63,7 +63,7 @@ const ArticleSection = () => {
         <section className="article-section">
             <div className="article-header">
                 <h2>Browse Our Latest Articles</h2>
-                <a href="#" className="visit-blog">Visit Blog</a>
+                <a href="/" className="visit-blog">Visit Blog</a>
             </div>
             <div className="article-grid">
                 {articles.map(article => (

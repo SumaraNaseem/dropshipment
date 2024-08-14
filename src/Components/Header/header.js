@@ -21,7 +21,7 @@ const Header = () => {
           <li className="menu-item">Pricing</li>
         </ul>
         <div className="nav-buttons">
-          <a href="#" className="login-link">Log In</a>
+          <a href="/" className="login-link">Log In</a>
           <button className="nav-button">Start Free Trial</button>
         </div>
       </div>

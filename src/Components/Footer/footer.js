@@ -77,16 +77,16 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p>&copy; 2024 Dropship. All Rights Reserved.</p>
                 <div className="footer-links">
-                    <a href="#">Cookie</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
+                    <a href="/">Cookie</a>
+                    <a href="/">Privacy</a>
+                    <a href="/">Terms</a>
                 </div>
                 <div className="footer-language">
-                    <a href="#">EN</a>
-                    <a href="#">DE</a>
-                    <a href="#">ES</a>
-                    <a href="#">FR</a>
-                    <a href="#">NL</a>
+                    <a href="/">EN</a>
+                    <a href="/">DE</a>
+                    <a href="/">ES</a>
+                    <a href="/">FR</a>
+                    <a href="/">NL</a>
                 </div>
             </div>
         </div>

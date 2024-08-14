@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import { FaBars } from 'react-icons/fa';
+import React from 'react'
+// import { FaBars } from 'react-icons/fa';
 import './navbar.css';
 
 const Header = () => {
-    const [open, setOpen] = useState(false);
+    // const [open, setOpen] = useState(false);
 
-    const handleToggle = () => {
-      setOpen(!open);
-    };
+    // const handleToggle = () => {
+    //   setOpen(!open);
+    // };
   
     return (
       
