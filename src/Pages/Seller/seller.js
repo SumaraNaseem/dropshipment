@@ -10,7 +10,10 @@ import bigcommerceLogo from "../../image/bigcommerce.svg";
 
 const Seller = () => {
     return (
+      <div className='applies'>
+       <hr/>
         <div className="container-seller">
+          
           <div className="header">APPLIES TO ALL SELLERS</div>
           <div className="logos">
             <img src={shopifyLogo} alt="Shopify" />
@@ -20,7 +23,11 @@ const Seller = () => {
             <img src={woocommerceLogo} alt="WooCommerce" />
             <img src={bigcommerceLogo} alt="BigCommerce" />
           </div>
+          
         </div>
+        <hr/>
+        </div>
+     
       );
 }
 

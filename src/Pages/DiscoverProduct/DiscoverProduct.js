@@ -9,7 +9,8 @@ import product6 from "../../image/product6.webp";
 import product7 from "../../image/product7.webp";
 import product8 from "../../image/product8.webp";
 import product9 from "../../image/product9.webp";
-import google from "../../image/google.png";
+// import google from "../../image/google.png";
+import Unname from "../../image/unnamed.png"
 import people from "../../image/people.webp";
 
 const DiscoverProducts = () => {
@@ -93,15 +94,19 @@ const DiscoverProducts = () => {
     return (
       <div className="container">
         <div className="left-section">
-          <h1>Discover <span className="highlight">Winning Products</span> To Sell</h1>
-          <p>Find and monitor stores to gain insights into their revenue, sales, products, apps, and more.</p>
+          <div className='discoverItems'>
+          <h1 >Discover <span className="highlight">Winning Products</span> To Sell</h1>
+          <p className='monitor'>Find and monitor stores to gain insights into their revenue, sales, products, apps, and more.</p>
+          </div>
+        
           <div className="extension-info">
             <button className="start-trial">Start Free Trial</button>
-            <button className='chrome'><img src={google} alt="Chrome" className="chrome-icon" />Install Extension</button>
+            <button className='chrome'>
+              <img src={Unname} alt="Chrome" className="chrome-icon" />Install Extension</button>
           </div>
             <div className="user-avatars">
               <img className='people' src={people} alt='people'/>
-              <span>Join 45,000+ merchants</span>
+              <span className='joins'>Join 45,000+ merchants</span>
             </div>
         </div>
         <div className="right-section">

@@ -1,6 +1,7 @@
 import './App.css';
 import Footer from './Components/Footer/footer';
 import Header from './Components/Header/header';
+import Navbar from './Components/Navber/navbar'
 import ArticleSection from './Pages/ArticleSection/ArticleSection';
 import ProductCards from './Pages/Card/Card';
 import CustomerReviews from './Pages/CustomerReview/CustomerReview';
@@ -18,22 +19,25 @@ import SignIn from './Pages1/Singin/Signin';
 
 function App() {
   return (
-    <div className="App">
-      <SignIn/>
-      {/* <Header/>
-      <Signup/>
-      <DiscoverProducts/>
-      <Seller/>
-      <Product/>
-      <ShopifyTracker/>
-      <DropshipSpyTools/>
-      <SaleTraker/>
-      <ProductCards/>
+    <div>
+      <Navbar/>
+       <Header/>
+       <DiscoverProducts/>
+       <Seller/>
+       <Product/>
+       <ShopifyTracker/>
+       <DropshipSpyTools/>
+       <SaleTraker/>
+     {/* <Signup/>  */}
+     
+     
+      {/* <ProductCards/>
       <JoinMerchants/>
       <Industry/>
       <CustomerReviews/>
       <ArticleSection/>
-      <Footer/> */}
+      <SignIn/>
+      <Footer/>   */}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 .revenue-container {
   display: flex;
-  max-width: 1200px;
+ margin-top: 40px;
+  max-width: 1213px;
   margin: 0 auto;
   background-color: #fff5f5;
   border-radius: 10px;

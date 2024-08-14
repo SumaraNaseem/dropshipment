@@ -10,10 +10,12 @@ const Header = () => {
     };
   
     return (
+    
       <div className="navbar-container">
+        
         <div className="logo">Logo</div>
         <FaBars className="hamburger" onClick={handleToggle} />
-        <ul className={`menu ${open ? 'open' : ''}`}>
+        <ul className={`menu  ${open ? 'open' : ''}`}>
           <li className="menu-item">Products</li>
           <li className="menu-item">Resources</li>
           <li className="menu-item">Pricing</li>
@@ -23,6 +25,9 @@ const Header = () => {
           <button className="nav-button">Start Free Trial</button>
         </div>
       </div>
+       
+      
+   
     );
 }
 

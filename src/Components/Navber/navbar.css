@@ -1,0 +1,66 @@
+.navbar-container-navbar {
+    width: 100%;
+    background: #001f5f;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+   
+  }
+  .custom-built
+  {
+    
+    color: white;
+    align-items: center !important;
+    display: flex ;
+    justify-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+
+  
+  .login-link {
+    
+    
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  
+  .nav-button {
+   
+    border: none;
+    padding : 10px 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #001f5f;
+      padding: 10px 0;
+    }
+  
+    .menu.open {
+      display: block;
+    }
+  
+    .menu-item {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  

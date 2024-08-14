@@ -43,8 +43,8 @@ function Product() {
     <div className="product">
       <div className="content">
         <h1>Millions Of Products At Your Fingertips</h1>
-        <p>Find your next profitable product by exploring our vast database with millions of products. Use our smart filters to refine your search and find products tailored to your interests and niche.</p>
-        <button>Try For Free</button>
+        <p className='profitable'>Find your next profitable product by exploring our vast database with millions of products. Use our smart filters to refine your search and find products tailored to your interests and niche.</p>
+        <button className='free-try'>Try For Free</button>
       </div>
       <div className="image-grid">
         <div className="scroll-container">

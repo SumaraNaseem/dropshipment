@@ -1,21 +1,32 @@
 .container-seller {
     text-align: center;
-    padding: 80px;
+    padding: 30px 0px;
   }
   
+  .applies{
+    margin: 10px 0px;
+  }
   .header {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
   }
   
   .logos {
     display: flex;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-top: 20px;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
   }
   
   .logos img {
-    max-width: 100px;
+    max-width: 197px;
+    height:45px;
     margin: 10px;
   }
   

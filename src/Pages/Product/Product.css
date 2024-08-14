@@ -1,48 +1,51 @@
 .product {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-top: -150px;
+    gap:40px;
+    margin:130px 0px;
+     
   }
   
   .content {
-    max-width: 500px;
+    width: 648px;
+    max-width: 100%;
     text-align: left;
-    margin-right: 20px;
+    margin-left: 71px;
+  }
+  .profitable{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 69px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .content h1 {
-    font-size: 2em;
+    font-size: 45px;
     margin-bottom: 0.5em;
   }
   
   .content p {
     margin-bottom: 1em;
   }
-  
-  button {
+  .free-try {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 21px 60px;
+    border-radius: 10px;
     cursor: pointer;
-  }
+    font-size: 19px;}
   
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+
   .image-grid {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
+    margin-right: 71px;
   }
   
   .scroll-container {
     overflow: hidden;
-    height: 300px;
+    height: 517px;
     width: 100%;
     margin: 10px 0;
     position: relative;
@@ -55,7 +58,7 @@
   }
   
   .scroll-inner img {
-    width: 100px;
+    width: 155px;
     height: auto;
     margin: 5px 0;
     border-radius: 10px;
@@ -69,7 +72,7 @@
   }
   
   .scroll-inner1 img {
-    width: 100px;
+    width: 155px;
     height: auto;
     margin: 5px 0;
     border-radius: 10px;

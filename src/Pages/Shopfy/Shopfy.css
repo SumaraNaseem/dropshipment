@@ -1,25 +1,24 @@
 .shopfy {
     display: flex;
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    margin-top: -250px;
+    margin-top: 50px;
   }
   
-  .left-section {
+  .left-sections {
     flex: 1;
     padding-right: 20px;
+    margin-left: 71px;
   }
   
   .browser-image {
     width: 100%;
-    margin-top: -150px;
+    /* margin-top: -150px; */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .right-section {
+  .right-sections {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -27,15 +26,17 @@
     margin-left: 50px;
   }
   
-  h1 {
-    font-size: 2rem;
+  .track-revenue {
+    font-size: 40px;
     color: #333;
     margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .shopfy-con {
-    font-size: 1rem;
+    font-size: 25px;
     color: #666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 30px;
     line-height: 1.6;
     width: 500px;
@@ -44,9 +45,9 @@
   .cta-button {
     background-color: #4285f4;
     color: white;
+    font-size: 20px;
     border: none;
-    padding: 12px 24px;
-    font-size: 1rem;
+    padding: 16px 45px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -62,17 +63,17 @@
       flex-direction: column;
     }
   
-    .left-section {
+    .left-sections {
       padding-right: 0;
       margin-bottom: 20px;
     }
   
-    .right-section {
+    .right-sections {
       text-align: center;
     }
   
-    h1 {
-      font-size: 2rem;
+    .track-revenue {
+      font-size: 20px;
     }
   
     .cta-button {
